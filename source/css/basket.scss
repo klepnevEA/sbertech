@@ -1,0 +1,43 @@
+.basket {
+    display: flex;
+    align-items: center;
+
+    &__text {
+        display: flex;
+        align-items: center;
+        font-family: $font;
+        font-size: rem(16px);
+        font-weight: 600;
+        margin-right: rem(10px);
+    }
+
+    &__count {
+        position: relative;
+        width: rem(24px);
+        height: rem(12px);
+    }
+
+    &__icon {
+        fill: $green;
+        width: rem(21px);
+        height: rem(21px);
+    }
+
+    &__amount {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: rem(-14px);
+        top: rem(-12px);
+        background-color: $red;
+        width: rem(24px);
+        height: rem(24px);
+        border-radius: 50%;
+        color: #fff;
+        font-family: $font;
+        font-size: rem(14px);
+        font-weight: 600;
+    }
+
+}
