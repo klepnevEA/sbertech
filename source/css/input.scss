@@ -1,0 +1,29 @@
+.input {
+    position: relative;
+    width: rem(360px);
+    height: rem(39px);
+    background-color: #fff;
+    
+    &__elem {
+        position: relative;
+        border-radius: rem(3px);
+        border: solid 1px $gray-light;
+        width: 100%;
+        height: 100%;
+        font-family: $font;
+        font-size: rem(14px);
+        font-weight: normal;
+        padding: 0 rem(45px) 0 rem(15px);
+        background-color: transparent;
+        z-index: 2;
+    }
+
+    &__magnifier {
+        position: absolute;
+        top: 50%;
+        right: rem(15px);
+        transform: translate(0 ,-50%);
+        width: rem(16.5px);
+        height: rem(16.5px);   
+    }
+}

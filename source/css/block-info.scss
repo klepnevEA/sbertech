@@ -1,0 +1,41 @@
+.block-info {
+    &__list {
+        display: flex;
+    }
+
+    &__elem {
+        display: flex;
+        margin-right: rem(15px);
+        padding-right: rem(15px);
+        border-right: solid 1px $gray-light;
+
+        &:last-child {
+            margin-right: 0;
+            padding-right: 0;
+            border-right: 0px;
+        }
+    }
+
+    &__icon {
+        width: rem(10px);
+        height: rem(10px);
+        fill: $gray;
+    }
+
+    &__content {
+        text-align: right;
+        margin-right: rem(5px);
+    }
+
+    &__count {
+        font-family: $font;
+        font-size: rem(20px);
+        font-weight: 600;
+    }
+
+    &__text {
+        font-family: $font;
+        font-size: rem(13px);
+        font-weight: normal;
+    }
+}

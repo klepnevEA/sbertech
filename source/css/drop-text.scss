@@ -1,0 +1,31 @@
+.drop-text {
+    display: flex;
+    height: rem(40px);
+    max-width: rem(580px);
+
+    &__text {
+        flex: 1 1 auto;
+        align-self: stretch;
+        overflow: hidden;
+        text-align: left;
+        font-family: $font;
+        font-size: 15px;
+        line-height: normal;
+        font-weight: normal;
+    }
+    
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        align-self: stretch;
+        width: rem(53px);
+    }
+
+    &__icon {
+        width: rem(13px);
+        height: rem(6.5px);
+    }
+
+}
