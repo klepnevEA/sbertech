@@ -4,5 +4,9 @@
 
     &__btn {
         margin-right: rem(5px);
+
+        &:last-child {
+            margin-right: 0;
+        }
     }
 }

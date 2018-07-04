@@ -5,7 +5,7 @@
     background-color: $gray-bg;
     border: solid 1px $gray-light;
     padding: rem(10px) rem(18px);
-    font-family: $font;
+    font-family: $segoe-ui-font;
     font-size: rem(14px);
     font-weight: normal;
     white-space: nowrap;
@@ -19,7 +19,8 @@
 
         &_right {
             margin-right: 0;
-            margin-left: rem(10px); 
+            margin-left: rem(10px);
+            order: 2; 
         }
     }
 

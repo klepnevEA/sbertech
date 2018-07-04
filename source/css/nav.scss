@@ -61,7 +61,7 @@
 	}
 
 	&__text {
-		font-family: $font;
+		font-family: $segoe-ui-font;
 		font-size: rem(18px);
 		font-weight: normal;
 		font-style: normal;
@@ -112,7 +112,7 @@
 			padding: rem(20px) rem(25px);
 			transition: 0.5s;
 			color: $black;
-			font-family: $font;
+			font-family: $segoe-ui-font;
 			font-size: rem(18px);
 			font-weight: normal;
 			z-index: $z-index-naw-link;

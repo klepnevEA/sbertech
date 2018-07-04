@@ -54,14 +54,14 @@
 	width: rem(94px);
 	text-overflow:ellipsis;
     overflow: hidden;
-    font-family: $font;
+    font-family: $segoe-ui-font;
     font-size: rem(14px);
     font-weight: normal;
     text-align: left;
 }
 
 .jq-selectbox__select-text {
-    font-family: $font;
+    font-family: $segoe-ui-font;
     font-size: rem(14px);
     font-weight: normal;
 }
