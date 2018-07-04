@@ -1,0 +1,118 @@
+.tile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    &__wrap  {
+        flex: 1px;
+    }
+
+    &__footer {
+        flex: 0;
+    }
+
+    &__header {
+        display: flex;
+    }
+
+    &__header-img {
+        flex: 1 0 auto;
+        width: rem(100px);
+        height: rem(100px);
+        overflow: hidden;
+        
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    &__header-text {
+        padding-left: rem(15px);
+        max-height: 115px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    &__title-small {
+        flex: 1 0 auto;
+    }
+
+    &__text {
+        overflow: hidden;
+        flex: 1 1 auto;
+    }
+    
+    &__characteristics {
+        border-radius: 3px;
+        background-color: $gray-bg;
+        padding: rem(15px);
+        margin-bottom: rem(15px);
+    }
+
+    &__characteristics-row {
+        display: flex;
+        margin: 0 rem(-5px);
+        margin-bottom: rem(15px);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__characteristics-col {
+        flex: 1;
+        margin: 0 rem(5px);
+    }
+
+    &__characteristics-title {
+        font-family: $font;
+        font-size: rem(13px);
+        font-weight: 600;
+    }
+
+    &__characteristics-text {
+        font-family: $font;
+        font-size: rem(13px);
+        font-weight: normal;
+    }
+
+    &__prise-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: rem(16px);
+    }
+
+    &__btn {
+        font-size: rem(16px);
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: rem(11px);
+
+        .btn__icon {
+            width: rem(18px);
+            height: rem(18px);
+        }
+    }
+
+    &__delimiter {
+        border-bottom: solid 1px $gray-light;
+        margin: rem(12px) 0;
+    }
+
+    &__edit-wrap {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        opacity: 0.97;
+    }
+
+}

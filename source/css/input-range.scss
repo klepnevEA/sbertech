@@ -1,0 +1,77 @@
+.input-range {
+    position: relative;
+    width: 100%;
+    height: rem(3px);
+    border-radius: rem(6px);
+    background-color: $gray-light;
+
+    &_green {
+        background-color: $green;
+    }
+
+    &__thumb {
+        position: absolute;
+        top: 50%;
+        transform: translate(0 , -50%);
+        width: rem(15px);
+        height: rem(15px);
+        border: solid 3px $green;
+        border-radius: 50%;
+        background-color: #fff;
+        cursor: pointer;
+        z-index: 20;    
+
+        &_left{
+            left: 30%;
+        }
+
+        &_right{
+            left: 60%;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            bottom: calc(100% + 2px);
+            left: 50%;
+            transform: translate(-50%, 0);
+            border-left: 3px solid transparent;
+            border-right: 3px solid transparent;
+            border-bottom: 4px solid $green;
+            box-sizing: content-box;
+        }
+
+    }
+
+    &__thumb-text {
+        position: absolute;
+        white-space: nowrap;
+        font-family: $font;
+        font-size: rem(13px);
+        font-weight: normal;
+        top: rem(-30px);
+        transform: translate(-50%, 0);
+
+        &_big {
+            font-size: rem(16px);
+            font-weight: 600;
+            top: rem(-26px);
+        }
+    }
+
+    &__band {
+        position: absolute;
+        height: 100%;
+        left: calc(30% + 7px);
+        width: 30%;
+        background-color: $green;
+    }
+
+    &-wrap {
+        display: flex;
+        align-items: flex-end;
+        height: rem(30px);
+    }
+}
