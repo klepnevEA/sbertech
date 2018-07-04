@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+@@include('./file-include/head.html')
+
+<body>
+
+	<div class="wrapper">
+		<div class="authorization">
+			<div class="authorization__wrap">
+				<a href="#" class="logo authorization__logo">
+					<svg class="logo__icon">
+						<use xlink:href="img/sprite.svg#logo"></use>
+					</svg>
+				</a>
+				<div class="authorization__main">
+					<div class="authorization__block">
+						<div class="authorization__bidy">
+							<div class="authorization__text">Портал выдачи
+								<br> и управления ресурсами</div>
+							<div class="authorization__delimiter"></div>
+							<div class="input  authorization__input">
+								<input type="text" class="input__elem" placeholder="Логин">
+							</div>
+							<div class="input  authorization__input">
+								<input type="text" class="input__elem" placeholder="Пароль">
+							</div>
+							<div class="select-block authorization__select-block">
+								<div class="select-block__wrap">
+									<svg class="select-block__icon">
+										<use xlink:href="img/sprite.svg#down"></use>
+									</svg>
+									<select>
+										<option value="0">Домен</option>
+										<option value="1">Домен 2</option>
+										<option value="2">Домен 3</option>
+										<option value="3">Домен 4</option>
+									</select>
+								</div>
+							</div>
+
+						</div>
+						<div class="authorization__footer">
+							<a href="#" class="btn btn_green authorization__btn">Войти в ситсему</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
