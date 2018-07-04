@@ -58,12 +58,20 @@
 
     &_green {
         background-color: $green;
-        border: $green;
+        border: 1px solid $green;
         color: #fff;
         fill: #fff;
     }
     
     &_uppercase {
         text-transform: uppercase;
+    }
+
+    &_outline {
+        &.btn_green {
+            background-color: #fff;
+            color: $green;
+            fill: $green;
+        }
     }
 }

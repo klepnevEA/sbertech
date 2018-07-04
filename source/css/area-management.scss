@@ -1,0 +1,68 @@
+.area-management {
+    &__row {
+        display: flex;
+        margin: 0 rem(-10px);
+        margin-bottom: rem(10px);
+    }
+
+    &__col {
+        flex: 1;
+        margin: 0 rem(10px);
+    }
+
+    &__text {
+        border-radius: rem(3px);
+        background-color: $gray-bg;
+        border: solid 1px transparent;
+        padding: rem(15px);
+        font-family: $font;
+        font-size: rem(15px);
+        font-weight: 600;
+        min-height: rem(130px);
+    }
+
+    &__count {
+        &_right {
+            text-align: right;
+        }
+    }
+
+    &__count-text {
+        font-family: $font;
+        font-size: rem(13px);
+        font-weight: normal;
+    }
+
+    &__count-number {
+        font-family: $font;
+        font-size: rem(22px);
+        font-weight: normal;
+        border-radius: 3px;
+        border: solid 1px transparent;
+    }
+
+    &__name-wrap {
+        display: flex;
+        align-items: flex-start;
+
+    }
+
+    &__name {
+        flex: 2;
+        
+        font-family: $font;
+        font-size: rem(16px);
+        font-weight: normal;
+        border-radius: rem(3px);
+        border: solid 1px transparent;
+        margin-right: rem(8px);
+    }
+
+    &__btn {
+       position: relative;
+       height: rem(28px);
+       z-index: -1;
+       padding: rem(6px) rem(18px);
+       font-size: rem(12px);
+    }
+}

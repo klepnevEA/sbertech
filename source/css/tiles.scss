@@ -10,12 +10,71 @@
         align-items: stretch;
         position: relative;
         width: rem(360px);
-        min-height: rem(434px);
+        min-height: rem(305px);
         border-radius: rem(3px);
         box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
         background-color: #fff;
         border: solid 1px $gray-light;
         margin: 0 rem(15px) rem(30px) rem(15px);
         padding: rem(10px);
+
+        &_edit {
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 3px;
+                background-color: $green;
+                border-radius: 3px 3px 0 0;
+            }
+
+            .tiles__elem-close-edit {
+                display: inline-block;
+            }
+
+            .area-management {
+                &__text {
+                    border: 1px solid $gray-light;
+                    background-color: #fff;
+                    font-size: rem(15px);
+                    font-weight: normal;
+                }
+
+                &__count-number_editable {
+                    border: 1px solid $gray-light;
+                    background-color: #fff;
+                    font-size: rem(16px);
+                    padding: rem(3px) rem(10px);
+                }
+
+                &__name {
+                    border: 1px solid $gray-light;
+                    background-color: #fff;
+                    font-size: rem(12px);
+                    padding: rem(3px) rem(10px);
+                    min-height: rem(28px);
+                }
+
+                &__btn {
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    &__elem-close-edit {
+        position: absolute;
+        display: none;
+        bottom: 100%;
+        right: calc(0px - 5px);
+        padding: rem(5px)
+    }
+
+    &__elem-close-edit-icon {
+        width: rem(7px);
+        height: rem(7px);
+        fill: $red;
     }
 }
