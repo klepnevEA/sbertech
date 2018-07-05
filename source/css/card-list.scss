@@ -1,4 +1,4 @@
-.tiles {
+.card-list {
     &__list {
         display: flex;
         flex-wrap: wrap;
@@ -11,11 +11,7 @@
         position: relative;
         width: rem(360px);
         min-height: rem(434px);
-        border-radius: rem(3px);
-        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
-        background-color: #fff;
-        border: solid 1px $gray-light;
         margin: 0 rem(15px) rem(30px) rem(15px);
-        padding: rem(10px);
+        
     }
 }

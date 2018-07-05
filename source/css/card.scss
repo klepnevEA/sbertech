@@ -1,9 +1,14 @@
-.tile {
+.card {
     position: relative;
     display: flex;
     flex-direction: column;
+    border-radius: rem(3px);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: solid 1px $gray-light;
+    padding: rem(10px);
 
-    &__wrap  {
+    &__body  {
         flex: 1px;
     }
 
@@ -44,14 +49,14 @@
         flex: 1 1 auto;
     }
     
-    &__characteristics {
+    &__specs {
         border-radius: 3px;
         background-color: $gray-bg;
         padding: rem(15px);
         margin-bottom: rem(15px);
     }
 
-    &__characteristics-row {
+    &__specs-row {
         display: flex;
         margin: 0 rem(-5px);
         margin-bottom: rem(15px);
@@ -61,24 +66,24 @@
         }
     }
 
-    &__characteristics-col {
+    &__specs-col {
         flex: 1;
         margin: 0 rem(5px);
     }
 
-    &__characteristics-title {
+    &__specs-title {
         font-family: $segoe-ui-font;
         font-size: rem(13px);
         font-weight: 600;
     }
 
-    &__characteristics-text {
+    &__specs-text {
         font-family: $segoe-ui-font;
         font-size: rem(13px);
         font-weight: normal;
     }
 
-    &__prise-wrap {
+    &__price-wrap {
         display: flex;
         justify-content: space-between;
         margin-bottom: rem(16px);
@@ -113,6 +118,7 @@
         bottom: 0;
         background-color: #fff;
         opacity: 0.97;
+        padding: rem(10px);
     }
 
 }

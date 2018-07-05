@@ -1,28 +1,25 @@
-.table-main {
+.data-table {
     width: 100%;
     border-collapse: collapse;
 
     &__tbody {
-        .table-main__tr:nth-child(odd) {
+        .data-table__row:nth-child(odd) {
             background-color: $gray-bg;
         } 
     }
 
-    &__th {
+    &__cell {
         text-align: left;
         border-bottom: solid 2px $gray-light;
         padding: rem(15px) rem(10px); 
-        white-space: nowrap; 
+        white-space: nowrap;
+        white-space: nowrap;
+        font-family: $segoe-ui-font;
+        font-size: rem(16px);
+        font-weight: 600; 
     }
 
-    &__th-text {
-       white-space: nowrap;
-       font-family: 'Segoe UI';
-       font-size: rem(16px);
-       font-weight: 600;
-    }
-
-    &__th-icon {
+    &__cell-icon {
         width: rem(14.9px);  
         height: rem(12px);
     }
@@ -33,9 +30,13 @@
         fill: $green;
     }
 
+    &__td-count {
+        white-space: nowrap;
+    }
+
     &__td {
         padding: rem(16px) rem(10px);
-        font-family: 'Segoe UI';
+        font-family: $segoe-ui-font;
         font-size: rem(15px);
         font-weight: 600;
         text-align: left;    
@@ -43,7 +44,7 @@
     }
 
     &__td-text {
-        font-family: 'Segoe UI';
+        font-family: $segoe-ui-font;
         font-size: rem(15px);
         font-weight: normal;
     }
@@ -52,18 +53,11 @@
         display: flex;
     }
 
-    &__td-count {
-        white-space: nowrap;
-        font-family: $segoe-ui-font;
-        font-size: rem(15px);
-        font-weight: 600;
-    }
-
     &__td-count-wrap {
         display: flex;
         flex-direction: column;
 
-        .table-main__checkbox-edit {
+        .data-table__checkbox-edit {
             display: none;
         }
 
@@ -84,10 +78,10 @@
         display: none;
     }
 
-    &__tr_edit {
-        .table-main__td-text,
-        .table-main__td-name,
-        .table-main__td-count_edit {
+    &__row_edit {
+        .data-table__td-text,
+        .data-table__td-name,
+        .data-table__td-count_edit {
             display: inline-block;
             background-color: #fff;
             padding: rem(5px) rem(10px);
@@ -97,26 +91,26 @@
             line-height: 1.4;
         }
 
-        .table-main__td-name {
+        .data-table__td-name {
             display: flex;
             align-items: center;
             margin-right: rem(8px);
         }
 
-        .table-main__td-count_edit {
+        .data-table__td-count_edit {
             margin-bottom: rem(6px);
         }
 
-        .table-main__td-edit {
+        .data-table__td-edit {
             display: none;
         }
 
-        .table-main__btn-save,
-        .table-main__btn-search {
-            display: inline-block;
+        .data-table__btn-save,
+        .data-table__btn-search {
+            display: inline-flex;
         }
 
-        .table-main__checkbox-edit {
+        .data-table__checkbox-edit {
             display: flex;
         }
     }
