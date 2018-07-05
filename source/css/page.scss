@@ -13,4 +13,16 @@
             justify-content: space-between;
         }
     }
+
+    &__header {
+        display: flex;
+        background-color: $gray-bg;
+        border-bottom: solid 1px $gray-light;
+        padding: rem(25px) rem(30px);
+    
+    }
+
+    &__block-info {
+        margin-left: auto;
+    }
 }

@@ -18,13 +18,17 @@
     }
 
     &__input-range {
-        display: flex;
-        align-items: center;
         width: rem(379px);
         margin-right: rem(15px);
     }
 
     &__select-block {
         margin-right: rem(30px)
+    }
+
+    &__input-range-wrap {
+        display: flex;
+        align-items: center;
+        height: rem(39px);
     }
 }

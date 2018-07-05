@@ -1,7 +1,7 @@
 .checkbox {
     display: flex;
     align-items: center;
-    &__hidden {
+    &__input {
         position: absolute;
         opacity: 0;
     }
@@ -33,7 +33,7 @@
         opacity: 0;
     }
 
-    &__hidden:checked + .checkbox__btn {
+    &__input:checked + .checkbox__btn {
         .checkbox__btn-icon {
             opacity: 1;
         }
