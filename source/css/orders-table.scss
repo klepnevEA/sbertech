@@ -1,0 +1,70 @@
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+    &__header {
+        font-family: $segoe-ui-font;
+        font-size: 16px;
+        font-weight: 600;
+        .orders-table {
+            &__cell {
+                height: 100%;
+                padding: rem(15px) rem(20px);
+                white-space: nowrap;
+            }
+        }
+        
+    }
+
+    &__delimiter {
+        height: rem(5px);
+    }
+
+    &__body {
+        font-family: $segoe-ui-font;
+        font-size: 15px;
+        font-weight: normal;
+
+        .orders-table {
+            &__row {
+                box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+                border: 1px solid $gray-light;
+            }
+
+            &__cell{
+                height: 100%;
+                padding: rem(15px) rem(20px);
+            }
+        }
+    }
+
+    &__dropdown {
+        display: inline-block;
+        padding: rem(2px);
+
+    }
+
+    &__dropdown-icon {
+        width: rem(12px);
+        height: rem(7.4px);  
+    }
+
+    &__btn-add-order {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: rem(50px);
+        border: 1px dashed #c1c1c1;
+        color: #c1c1c1;
+    }
+
+    &__btn-add-order-icon {
+        width: rem(10.3px);
+        height: rem(10.3px);
+        fill: #c1c1c1;
+        margin-right: rem(10.7px);
+    }
+
+}
