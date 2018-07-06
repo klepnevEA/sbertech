@@ -35,6 +35,14 @@
             fill: $green;
         }
     }
+
+    &_color-red {
+        color: $red;
+
+        .btn__icon {
+            fill: $red;
+        }
+    }
     
     &_only-icon {
         padding: rem(7px);
@@ -65,5 +73,15 @@
     
     &_uppercase {
         text-transform: uppercase;
+    }
+
+    &__dashed {
+        border: 1px dashed #c1c1c1;
+        background-color: #fff;
+        color: #c1c1c1;
+
+        .btn__icon {
+            fill: #c1c1c1;
+        }
     }
 }

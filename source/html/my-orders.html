@@ -29,13 +29,13 @@
 									</tr>
 								</thead>
 								<tbody class="orders-table__body">
-									<tr class="orders-table__row">
+									<tr class="orders-table__row orders-table__row_dropdown-is-open">
 										<td class="orders-table__cell">
 											<div class="order-status">
 												<div class="order-status__elem order-status__elem_1"></div>
 											</div>
 										</td>
-										<td class="orders-table__cell">
+										<td class="orders-table__cell orders-table__arrow-down">
 											Заказ 1
 										</td>
 										<td class="orders-table__cell">
@@ -67,8 +67,159 @@
 										<td colspan="8">
 										</td>
 									</tr>
-									<tr class="orders-table__drop">
-										<td colspan="8">
+									<tr class="orders-table__dropdown-block">
+										<td colspan="8" class="orders-table__dropdown-cell">
+											<div class="order">
+												<div class="order__row">
+													<h2 class="order__title">Заказ 1</h2>
+													<a href="#" class="btn btn_color-red btn_transparent">
+														<svg class="btn__icon">
+															<use xlink:href="img/sprite.svg#close"></use>
+														</svg>
+														Отменить заказ
+													</a>
+												</div>
+												<div class="order__row order__row_gray">
+													<div class="order__col">
+														<div class="text text_fsz-15">
+															Черновик
+															<br> 21.05.2018 17:21
+														</div>
+													</div>
+													<div class="order__col">
+														<div class="text text_fsz-15">
+															Создан
+															<br> 22.05.2018 15:34
+														</div>
+													</div>
+													<div class="order__col">
+														<div class="text text_fsz-15">
+															На согласовании
+														</div>
+													</div>
+													<div class="order__col">
+														<div class="text text_fsz-15">
+															На исполнении
+														</div>
+													</div>
+													<div class="order__col">
+														<div class="text text_fsz-15 text_right">
+															Исполнен
+														</div>
+													</div>
+												</div>
+												<div class="order__row order__row_gray">
+													<div class="progress-bar">
+														<div class="progress-bar__band">
+															<div class="progress-bar__progress" style="width:50%"></div>
+														</div>
+
+													</div>
+												</div>
+												<div class="order__row">
+													<div class="btn-group btn-group_width-100">
+														<a href="#" class="btn btn_only-icon order__btn-only-icon">
+															<svg class="btn__icon">
+																<use xlink:href="img/sprite.svg#arrow-left"></use>
+															</svg>
+														</a>
+														<div class="btn-group__scroll">
+															<a href="#" class="btn btn_green btn-group__btn order__btn ">Ресурс 1</a>
+															<a href="#" class="btn btn-group__btn order__btn">Ресурс 2</a>
+															<a href="#" class="btn btn-group__btn order__btn">Ресурс 3</a>
+															<a href="#" class="btn btn__dashed btn-group__btn order__btn">
+																<svg class="btn__icon">
+																	<use xlink:href="img/sprite.svg#plus"></use>
+																</svg>
+																Добавить новый ресурс
+															</a>
+														</div>
+														<a href="#" class="btn btn_only-icon order__btn-only-icon">
+															<svg class="btn__icon">
+																<use xlink:href="img/sprite.svg#arrow"></use>
+															</svg>
+														</a>
+													</div>
+												</div>
+												<div class="order__row">
+													<table class="order-table">
+														<tr class="order-table__row">
+															<td class="order-table__cell" style="width:15%">Автоматизированная система:</td>
+															<td class="order-table__cell" style="width:35%">
+																<div class="input order-table__input">
+																	<input type="text" class="input__elem" placeholder="(CI00002912) Новая Афина - Расчеты в рублях ПСИ">
+																</div>
+
+															</td>
+															<td class="order-table__cell" style="width:15%">Оперативная память (Гб):</td>
+															<td class="order-table__cell" style="width:35%">
+																<div class="input-range-wrap order-table__input-range-wrap">
+																	<div class="input-range">
+																		<div class="input-range__thumb" style="left: 20%">
+																			<div class="input-range__thumb-text">4 Гб</div>
+																		</div>
+																	</div>
+																</div>
+															</td>
+														</tr>
+														<tr class="order-table__row">
+															<td class="order-table__cell">Тип стенда:</td>
+															<td class="order-table__cell">
+																<div class="input order-table__input">
+																	<input type="text" class="input__elem" placeholder="(CI00002912) Новая Афина - Расчеты в рублях ПСИ">
+																</div>
+
+															</td>
+															<td class="order-table__cell">Количество ядер:</td>
+															<td class="order-table__cell">
+																<div class="input-range-wrap order-table__input-range-wrap">
+																	<div class="input-range">
+																		<div class="input-range__thumb" style="left: 60%">
+																			<div class="input-range__thumb-text">4 ядра</div>
+																		</div>
+																	</div>
+																</div>
+															</td>
+														</tr>
+														<tr class="order-table__row">
+															<td class="order-table__cell">Операционная система:</td>
+															<td class="order-table__cell">
+																<div class="input order-table__input">
+																	<input type="text" class="input__elem" placeholder="(CI00002912) Новая Афина - Расчеты в рублях ПСИ">
+																</div>
+
+															</td>
+															<td class="order-table__cell">Размер диска (Гб)</td>
+															<td class="order-table__cell">
+																<div class="input-range-wrap order-table__input-range-wrap">
+																	<div class="input-range">
+																		<div class="input-range__thumb" style="left: 50%">
+																			<div class="input-range__thumb-text">150 Гб</div>
+																		</div>
+																	</div>
+																</div>
+															</td>
+														</tr>
+														<tr class="order-table__row">
+															<td class="order-table__cell">Программное обеспечение:</td>
+															<td class="order-table__cell">
+																<div class="input order-table__input">
+																	<input type="text" class="input__elem" placeholder="(CI00002912) Новая Афина - Расчеты в рублях ПСИ">
+																</div>
+
+															</td>
+															<td class="order-table__cell">Стоимость:</td>
+															<td class="order-table__cell">
+																<div class="price price_fsz-20">83 451 &#8381;</div>
+															</td>
+														</tr>
+													</table>
+												</div>
+												<div class="order__row order__row_gray">
+													<div class="order__total-cost">Итоговая стоимость: <div class="price price_fsz-20">1 083 451 &#8381;</div></div>
+													
+												</div>
+											</div>
 										</td>
 									</tr>
 									<tr class="orders-table__delimiter">
@@ -112,7 +263,7 @@
 										<td colspan="8">
 										</td>
 									</tr>
-									<tr class="orders-table__drop">
+									<tr class="orders-table__dropdown-block">
 										<td colspan="8">
 										</td>
 									</tr>
@@ -151,7 +302,7 @@
 										<td colspan="8">
 										</td>
 									</tr>
-									<tr class="orders-table__drop">
+									<tr class="orders-table__dropdown-block">
 										<td colspan="8">
 										</td>
 									</tr>
@@ -196,7 +347,7 @@
 										<td colspan="8">
 										</td>
 									</tr>
-									<tr class="orders-table__drop">
+									<tr class="orders-table__dropdown-block">
 										<td colspan="8">
 										</td>
 									</tr>
@@ -241,7 +392,7 @@
 										<td colspan="8">
 										</td>
 									</tr>
-									<tr class="orders-table__drop">
+									<tr class="orders-table__dropdown-block">
 										<td colspan="8">
 										</td>
 									</tr>
@@ -286,7 +437,7 @@
 										<td colspan="8">
 										</td>
 									</tr>
-									<tr class="orders-table__drop">
+									<tr class="orders-table__dropdown-block">
 										<td colspan="8">
 										</td>
 									</tr>
@@ -296,8 +447,8 @@
 									</tr>
 									<tr class="orders-table__row-add">
 										<td colspan="8">
-											<a href="#" class="orders-table__btn-add-order">
-												<svg class="orders-table__btn-add-order-icon">
+											<a href="#" class="btn btn__dashed orders-table__btn">
+												<svg class="btn__icon">
 													<use xlink:href="img/sprite.svg#plus"></use>
 												</svg>
 												Новый заказ
