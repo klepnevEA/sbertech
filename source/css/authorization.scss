@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100hw;
+    width: 100vw;
     height: 100vh;
     border-top: 6px solid $green;
 
@@ -22,12 +22,12 @@
         }
     }
 
-    &__block {
+    &__body {
         display: inline-flex;
         position: relative;
         flex-direction: column;
-        width: rem(316px);
-        min-height: rem(392px);
+        width: rem(320px);
+        min-height: rem(395px);
         border-radius: rem(3px);
         box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
         background-color: $gray-bg;;
@@ -35,49 +35,34 @@
         padding: rem(24px) rem(15px) rem(16px);
     }
 
-    &__bidy {
-        flex: 2;
-    }
-
-    &__text {
+    &__title {
         font-family: $font;
-        font-size: rem(20px);
+        font-size: rem(22px);
         font-weight: 600;
-        margin-bottom: rem(24px);
+        margin-bottom: rem(25px);
         line-height: 1.05;
+        padding: 0 0 25px 0;
+        text-align: center;
+        border-bottom: 1px solid $gray-light;
     }
 
-    &__delimiter {
-        border-top: 3px solid $gray-light;
-        margin-bottom: rem(26px);
-    }
+    &__btn { }
 
-    &__input {
-        width: 100%;
-        height: rem(34px);
-        margin-bottom: rem(15px);
-        font-size: rem(13px);
-    }
-
-    &__select-block {
-        width: 100%;
-        height: rem(34px);
-        margin-bottom: rem(15px);
-
-        .select-block__wrap {
-            height: 100%;
-        }
-    }
-
-    &__btn {
-        justify-content: center;
-        height: rem(39px);
-        font-size: rem(16px);
+    &__alert {
+        margin-bottom: 25px;
+        text-align: center;
+        font-family: $font;
         font-weight: 600;
+
+        a {
+            text-decoration: none;
+            color: $green;
+        }
     }
 
     &__main {
         position: relative;
+
         &:before {
             content: '';
             display: block;
@@ -91,6 +76,16 @@
             border: solid 1px $gray-light;
             width: 100%;
             height: 90%;
+        }
+    }
+
+    &__field-wrap {
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        border-bottom: 1px solid $gray-light;
+
+        input {
+            margin-bottom: 15px;
         }
     }
 }

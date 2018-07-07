@@ -3,8 +3,8 @@
 @@include('./file-include/head.html')
 
 <body>
-
 	<div class="wrapper">
+
 		<div class="authorization">
 			<div class="authorization__wrap">
 				<a href="#" class="logo authorization__logo">
@@ -12,43 +12,33 @@
 						<use xlink:href="img/sprite.svg#logo"></use>
 					</svg>
 				</a>
-				<div class="authorization__main">
-					<div class="authorization__block">
-						<div class="authorization__bidy">
-							<div class="authorization__text">Портал выдачи
-								<br> и управления ресурсами</div>
-							<div class="authorization__delimiter"></div>
-							<div class="input  authorization__input">
-								<input type="text" class="input__elem" placeholder="Логин">
-							</div>
-							<div class="input  authorization__input">
-								<input type="text" class="input__elem" placeholder="Пароль">
-							</div>
-							<div class="select-block authorization__select-block">
-								<div class="select-block__wrap">
-									<svg class="select-block__icon">
-										<use xlink:href="img/sprite.svg#down"></use>
-									</svg>
-									<select>
-										<option value="0">Домен</option>
-										<option value="1">Домен 2</option>
-										<option value="2">Домен 3</option>
-										<option value="3">Домен 4</option>
-									</select>
-								</div>
-							</div>
 
+				<div class="authorization__main">
+					<div class="authorization__body">
+						<div class="authorization__title">
+							Портал выдачи и управления ресурсами
 						</div>
-						<div class="authorization__footer">
-							<a href="#" class="btn btn_green authorization__btn">Войти в ситсему</a>
+
+						<div class="authorization__field-wrap">
+							<input type="text" class="input" placeholder="Логин"/>
+							<input type="password" class="input" placeholder="Пароль"/>
+						</div>
+						<div class="authorization__alert">
+							К сожалению, Ваш табельный номер не найден.
+							Введите Ваш логин и e-mail в сегменте <a href="#">Альфа</a>
+						</div>
+						<div class="authorization__field-wrap authorization__field-wrap_no">
+							<input type="text" class="input" placeholder="Логин"/>
+							<input type="text" class="input" placeholder="E-mail"/>
+						</div>
+						<div class="authorization__btn">
+							<button class="btn btn_green btn_auth">Войти в систему</button>
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
-
 	<script src="./scripts/scripts.js"></script>
 </body>
 

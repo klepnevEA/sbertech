@@ -34,6 +34,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "cli": "^1.0.1",
     "node-sass": "^4.7.2",
     "normalize.css": "^4.1.1",
     "simplebar": "^2.2.1"

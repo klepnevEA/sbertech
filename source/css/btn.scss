@@ -53,17 +53,27 @@
     }
 
     &_white {
-        background-color: #fff;
+        background: #fff;
     }
 
     &_green {
-        background-color: $green;
+        background: $green;
         border: $green;
         color: #fff;
-        fill: #fff;
     }
     
     &_uppercase {
         text-transform: uppercase;
+    }
+
+    &_auth {
+        font-size: rem(16px);
+        font-weight: 600;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
     }
 }
