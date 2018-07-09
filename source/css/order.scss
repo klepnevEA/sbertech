@@ -4,13 +4,19 @@
     box-shadow: 0 0 rem(6px) 0 rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border: solid 1px $gray-light;
+    overflow: hidden;
     &__row {
         display: flex;
         justify-content: space-between;
-        padding: rem(15px) rem(10px);
+        padding: rem(15px);
+        min-height: rem(58px);
 
         &_gray {
             background-color: $gray-bg;
+        }
+
+        &_mb-10 {
+            margin-bottom: rem(10px);
         }
     }
 
