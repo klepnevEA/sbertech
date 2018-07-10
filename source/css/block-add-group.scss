@@ -6,8 +6,16 @@
     background-color: #fff;
     border: solid 1px $gray-light;
 
+    @include screen-size-desktop() {
+		padding: rem(28px) rem(15px);
+	}
+
     &__input {
         margin-right: rem(40px);
+
+        .input__elem {
+            padding: 0 rem(15px);
+        }
     }
     
     &__btn-group {

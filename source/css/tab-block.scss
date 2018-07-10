@@ -14,6 +14,15 @@
         text-align: center;
         text-transform: uppercase;
 
+        &:hover {
+            background-color: #eee;
+        }
+    
+        &:active {
+            background-color: #eee;
+            box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.11);
+        }
+
         span {
             opacity: 0.5;
             font-family: $segoe-ui-font;
@@ -25,6 +34,19 @@
             background-color: $green;
             border: $green;
             color: #fff;
+
+            &:hover {
+                background-color: $green-dark;
+                border: $green-dark;
+            }
+        
+            &:active {
+                background-color: $green-dark;
+                border: $green-dark;
+                box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.11);
+            }
+
+            
 
             span {
                 opacity: 1;

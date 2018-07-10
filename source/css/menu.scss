@@ -5,9 +5,11 @@
 	padding-top: rem(20px);
 	z-index: $z-index-naw;
 	box-shadow: 4px 0 8px 0 rgba(223, 223, 223, 0.5);
+	transition: 0.3s;
 
-
-
+	@include screen-size-desktop() {
+		flex: 0 0 rem(69px);
+	}
 	&__elem {
 
 		list-style: none;
@@ -52,6 +54,10 @@
 	&__icon-wrapper {
 		margin-right: rem(15px); 
 		flex: 0 0 auto;
+
+		@include screen-size-desktop() {
+			margin-right: 0; 
+		}
 	}
 
 	&__icon {
@@ -68,6 +74,10 @@
 		color: $black;
 		flex: 1 1 auto;
 		text-align: left;
+
+		@include screen-size-desktop() {
+			display: none;
+		}
 	}
 
 	&__arrow {
@@ -76,6 +86,10 @@
 		color: $black;
 		opacity: 0;
 		flex: 0 0 auto;
+
+		@include screen-size-desktop() {
+			display: none;
+		}
 	}
 
 	&__arrow-icon {
@@ -94,6 +108,10 @@
 		box-shadow: 4px 0 8px 0 rgba(223, 223, 223, 0.5);
 		padding-top: rem(20px);
 		z-index: $z-index-submenus;
+
+		@include screen-size-desktop() {
+			width: rem(300px);
+		}
 
 		&:after {
 			content:'';

@@ -3,6 +3,10 @@
     width: rem(360px);
     height: rem(39px);
     background-color: #fff;
+
+    @include screen-size-desktop() {
+        width: rem(254px);
+    }
     
     &__elem {
         position: relative;

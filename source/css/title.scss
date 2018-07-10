@@ -5,4 +5,8 @@
     line-height: 1;
     letter-spacing: normal;
     text-align: left;
+
+    @include screen-size-desktop() {
+        font-size: rem(24px);
+    }
 }

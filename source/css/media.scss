@@ -2,18 +2,24 @@
 	@return $px / 16px + 0rem;
 }
 
-@mixin tablets {
-	@media screen and (max-width: $tablets) {
+// @mixin tablets {
+// 	@media screen and (max-width: $tablets) {
+// 		@content;
+// 	}
+// }
+
+// @mixin phones {
+// 	@media screen and (max-width: $phones) {
+// 		@content;
+// 	}
+// }
+
+@mixin screen-size-desktop {
+	@media screen and (max-width: $screen-size-desktop) {
 		@content;
 	}
 }
 
-@mixin phones {
-	@media screen and (max-width: $phones) {
-		@content;
-	}
-}
-
-// @include tablets() {
+// @include screen-size-desktop() {
 //	...
 // }

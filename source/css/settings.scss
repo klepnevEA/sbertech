@@ -15,13 +15,13 @@ body {
 }
 
 html {
-    @include tablets {
-        font-size: 15px; 
-    }
+    // @include tablets {
+    //     font-size: 15px; 
+    // }
 
-    @include phones {
-        font-size: 13px; 
-    }
+    // @include phones {
+    //     font-size: 13px; 
+    // }
 }
 
 * {
