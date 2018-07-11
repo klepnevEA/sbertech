@@ -44,6 +44,10 @@
         }
     }
 
+    &_text-center {
+        justify-content: center;
+    }
+
     &_color-green {
         color: $green;
 
@@ -79,6 +83,17 @@
 
     &_white {
         background-color: #fff;
+    }
+
+    &_ellow {
+        background-color: $yellow;
+        border: solid 1px #c2ad00;
+
+        &:hover,
+        &:active {
+            background-color: $yellow;
+            border: solid 1px #c2ad00;
+        }
     }
 
     &_green {

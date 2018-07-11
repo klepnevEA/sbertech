@@ -1,5 +1,12 @@
 .page-section {
     background-color: #fff;
     padding: rem(20px) rem(30px); 
-    padding-bottom: rem(5px);
+
+    &_flex {
+        display: flex;
+    }
+
+    &_gray {
+        background-color: $gray-bg;
+    }
 }

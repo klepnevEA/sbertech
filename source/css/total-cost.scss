@@ -1,0 +1,16 @@
+.total-cost {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    font-family: $segoe-ui-font;
+    font-size: rem(16px);
+    font-weight: normal;
+
+    &__price {
+        font-family: $segoe-ui-font;
+        font-size: rem(20px);
+        font-weight: 600;
+        text-align: right;
+        min-width: rem(130px);
+    }
+}

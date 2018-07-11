@@ -41,9 +41,11 @@
 @import 'icon.scss';
 @import 'filters-panel.scss';
 @import 'orders-table.scss';
-@import 'order-status.scss';
-@import 'order.scss';
+// @import 'order-status.scss';
+@import 'dropdown-block.scss';
 @import 'progress-bar.scss';
-@import 'order-table.scss';
+//@import 'order-table.scss';
 @import 'block-add-group.scss';
-
+@import 'table.scss';
+@import 'input-signature.scss';
+@import 'total-cost.scss';

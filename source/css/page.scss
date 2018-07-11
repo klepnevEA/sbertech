@@ -16,6 +16,7 @@
 
     &__header {
         display: flex;
+        align-items: center;
         background-color: $gray-bg;
         border-bottom: solid 1px $gray-light;
         padding: rem(25px) rem(30px);

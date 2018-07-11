@@ -3,6 +3,7 @@
     width: rem(360px);
     height: rem(39px);
     background-color: #fff;
+    overflow: hidden;
 
     @include screen-size-desktop() {
         width: rem(254px);
@@ -17,9 +18,32 @@
         font-family: $segoe-ui-font;
         font-size: rem(14px);
         font-weight: normal;
-        padding: 0 rem(45px) 0 rem(15px);
+        padding: 0 rem(15px);
         background-color: transparent;
         z-index: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        &:disabled {
+            background-color: #f8f8f8;
+            border: solid 1px #d3d3d3;
+            color: $gray;
+        }
+
+    }
+
+    &_overflow {
+       &:after {
+           content: '';
+           position: absolute;
+           height: calc(100% - 2px);
+           width: 100px;
+           right: 2px;
+           top: 1px;
+           background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+           z-index: 2;
+       }
     }
 
     &__magnifier {
@@ -87,5 +111,9 @@
                 border-top: 10px solid $red;
             }
         }
+    }
+
+    &_width-100 {
+        width: 100%;
     }
 }
