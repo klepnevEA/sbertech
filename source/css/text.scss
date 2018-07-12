@@ -1,22 +1,22 @@
 .text {
     font-family: $segoe-ui-font;
-    font-size: rem(14px);
+    font-size: 14px;
     font-weight: normal;
     line-height: normal;
-    margin-bottom: rem(10px);
+    margin-bottom: 10px;
 
     &_small {
-        font-size: rem(12px);
+        font-size: 12px;
         margin-bottom: 0;
     }
 
     &_fsz-15 {
-        font-size: rem(15px);
+        font-size: 15px;
         margin-bottom: 0;
     }
 
     &_big {
-        font-size: rem(16px);
+        font-size: 16px;
         font-weight: 600;
     }
 

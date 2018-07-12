@@ -10,26 +10,26 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: rem(15px);
-        height: rem(15px);
-        border-radius: rem(3px);
+        width: 15px;
+        height: 15px;
+        border-radius: 3px;
         background-color: #fff;
         border: solid 1px $gray-light;
         flex: 1 0 auto;
-        margin-right: rem(5px);
+        margin-right: 5px;
     }
 
     &__text {
         white-space:nowrap;
         font-family: $segoe-ui-font;
-        font-size: rem(12px);
+        font-size: 12px;
         font-weight: normal;
     }
 
     &__btn-icon {
         fill: $green;
-        width: rem(8.4px);   
-        height: rem(6.7px);
+        width: 8.4px;   
+        height: 6.7px;
         opacity: 0;
     }
 

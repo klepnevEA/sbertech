@@ -3,8 +3,8 @@
     align-items: center;
 
     &__icon {
-        width: rem(11px);
-        height: rem(11px);
+        width: 11px;
+        height: 11px;
         fill: $black;
         opacity: 0.4;
     }
@@ -13,15 +13,15 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        padding: rem(5px);
-        margin: 0 rem(10px);
-        width: rem(38px);
-        height: rem(34px);
-        border-radius: rem(3px);
+        padding: 5px;
+        margin: 0 10px;
+        width: 38px;
+        height: 34px;
+        border-radius: 3px;
         background-color: #ffffff;
         border: solid 1px $gray-light;
         font-family: $segoe-ui-font;
-        font-size: rem(14px);
+        font-size: 14px;
         font-weight: normal;
     }
 }

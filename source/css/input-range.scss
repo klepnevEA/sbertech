@@ -1,8 +1,8 @@
 .input-range {
     position: relative;
     width: 100%;
-    height: rem(3px);
-    border-radius: rem(6px);
+    height: 3px;
+    border-radius: 6px;
     background-color: $gray-light;
 
     &_green {
@@ -13,8 +13,8 @@
         position: absolute;
         top: 50%;
         transform: translate(0 , -50%);
-        width: rem(15px);
-        height: rem(15px);
+        width: 15px;
+        height: 15px;
         border: solid 3px $green;
         border-radius: 50%;
         background-color: #fff;
@@ -49,16 +49,16 @@
         position: absolute;
         white-space: nowrap;
         font-family: $segoe-ui-font;
-        font-size: rem(13px);
+        font-size: 13px;
         font-weight: normal;
-        top: rem(-30px);
+        top: -30px;
         left: 50%;
         transform: translate(-50%, 0);
 
         &_big {
-            font-size: rem(16px);
+            font-size: 16px;
             font-weight: 600;
-            top: rem(-26px);
+            top: -26px;
         }
     }
 
@@ -73,7 +73,7 @@
     &-wrap {
         display: flex;
         align-items: flex-end;
-        height: rem(30px);
+        height: 30px;
         width: 100%;
     }
 }

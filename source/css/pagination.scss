@@ -1,6 +1,6 @@
 .pagination {
     display: flex;
-    height: rem(25px);
+    height: 25px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -16,11 +16,11 @@
 
     &__elem {
         display: flex;
-        width: rem(25px);
-        height: rem(25px);
+        width: 25px;
+        height: 25px;
         background-color: $gray-bg;
-        border-radius: rem(3px);
-        margin: 0 rem(5px);
+        border-radius: 3px;
+        margin: 0 5px;
 
         &_active {
             background-color: $green;
@@ -36,13 +36,13 @@
         align-items: center;
         width: 100%;
         font-family: $segoe-ui-font;
-        font-size: rem(15px);
+        font-size: 15px;
         font-weight: 600;
         color: $black;
     }
 
     &__icon {
-        width: rem(8px);
-        height: rem(15px);  
+        width: 8px;
+        height: 15px;  
     }
 }

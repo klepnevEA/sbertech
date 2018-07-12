@@ -1,21 +1,21 @@
 .select {
     position: relative;
-    height: rem(39px);
-    width: rem(94px);
-    margin-right: rem(35px);
+    height: 39px;
+    width: 94px;
+    margin-right: 35px;
 
     &__icon{
         position: absolute;
         top: 50%;
-        right: rem(-20px);
+        right: -20px;
         transform: translate(0 , -50%);
-        width: rem(9px);
-        height: rem(5px);
+        width: 9px;
+        height: 5px;
     }
 
     .jq-selectbox__select,
     .jq-selectbox__select-text {
-        width: rem(94px) !important;
+        width: 94px !important;
         overflow: hidden;
     }
 }
@@ -51,17 +51,17 @@
 }
 
 .jq-selectbox__dropdown li {
-	width: rem(94px);
+	width: 94px;
 	text-overflow:ellipsis;
     overflow: hidden;
     font-family: $segoe-ui-font;
-    font-size: rem(14px);
+    font-size: 14px;
     font-weight: normal;
     text-align: left;
 }
 
 .jq-selectbox__select-text {
     font-family: $segoe-ui-font;
-    font-size: rem(14px);
+    font-size: 14px;
     font-weight: normal;
 }

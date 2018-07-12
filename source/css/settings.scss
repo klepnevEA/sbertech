@@ -5,23 +5,13 @@ html {
 }
 
 body {
-    font-size: rem(15px);
+    font-size: 15px;
     line-height: 1.3em;
     font-weight: normal;
     height: 100%;
     width: 100%;   
     color: #333333;
     font-family: $segoe-ui-font, Verdana;
-}
-
-html {
-    // @include tablets {
-    //     font-size: 15px; 
-    // }
-
-    // @include phones {
-    //     font-size: 13px; 
-    // }
 }
 
 * {

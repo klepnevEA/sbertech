@@ -11,22 +11,22 @@
     &__cell {
         text-align: left;
         border-bottom: solid 2px $gray-light;
-        padding: rem(15px) rem(10px); 
+        padding: 15px 10px; 
         white-space: nowrap;
         white-space: nowrap;
         font-family: $segoe-ui-font;
-        font-size: rem(16px);
+        font-size: 16px;
         font-weight: 600; 
     }
 
     &__sort {
-        width: rem(14.9px);  
-        height: rem(12px);
+        width: 14.9px;  
+        height: 12px;
     }
 
     &__td-icon {
-        width: rem(14.2px);  
-        height: rem(14.2px);
+        width: 14.2px;  
+        height: 14.2px;
         fill: $green;
     }
 
@@ -35,9 +35,9 @@
     }
 
     &__td {
-        padding: rem(16px) rem(10px);
+        padding: 16px 10px;
         font-family: $segoe-ui-font;
-        font-size: rem(15px);
+        font-size: 15px;
         font-weight: 600;
         text-align: left;    
         border-bottom: solid 2px $gray-light;
@@ -45,7 +45,7 @@
 
     &__td-text {
         font-family: $segoe-ui-font;
-        font-size: rem(15px);
+        font-size: 15px;
         font-weight: normal;
     }
 
@@ -65,7 +65,7 @@
 
     &__td-edit {
         float: right;
-        margin-left: rem(30px);
+        margin-left: 30px;
     }
 
     &__td-edit-wrap {
@@ -84,21 +84,21 @@
         .data-table__td-count_edit {
             display: inline-block;
             background-color: #fff;
-            padding: rem(5px) rem(10px);
-            border-radius: rem(3px);
+            padding: 5px 10px;
+            border-radius: 3px;
             border: solid 1px $gray-light;
-            font-size: rem(12px);
+            font-size: 12px;
             line-height: 1.4;
         }
 
         .data-table__td-name {
             display: flex;
             align-items: center;
-            margin-right: rem(8px);
+            margin-right: 8px;
         }
 
         .data-table__td-count_edit {
-            margin-bottom: rem(6px);
+            margin-bottom: 6px;
         }
 
         .data-table__td-edit {

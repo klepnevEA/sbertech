@@ -1,22 +1,22 @@
 .user-info {
     position: relative;
-    width: rem(334px);
+    width: 334px;
 
 
     &__name {
         font-family: $segoe-ui-font;
-        font-size: rem(18px);
+        font-size: 18px;
         font-weight: 600;
         text-align: right;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        margin-bottom: rem(10px);
+        margin-bottom: 10px;
     }
 
     &__position {
         font-family: $segoe-ui-font;
-        font-size: rem(14px);
+        font-size: 14px;
         font-weight: normal;
         text-align: right;
         white-space: nowrap;

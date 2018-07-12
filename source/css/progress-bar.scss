@@ -1,11 +1,11 @@
 .progress-bar {
     width: 100%;
-    padding-top: rem(45px);
+    padding-top: 45px;
     &__band {
         position: relative;
-        height: rem(10px);
+        height: 10px;
         width: 100%;
-        border-radius: rem(6px);
+        border-radius: 6px;
         background: $gray-light;
     }
 
@@ -14,7 +14,7 @@
         top: 0;
         left: 0;
         height: 100%;
-        border-radius: rem(5px);
+        border-radius: 5px;
         background: $blue;
     }
 
@@ -27,13 +27,13 @@
         left: 0;
         right: 0;
         bottom: 0;
-        padding: 0 rem(10px);
+        padding: 0 10px;
     }
 
     &__point {
         position: relative;
-        width: rem(18px);
-        height: rem(18px);
+        width: 18px;
+        height: 18px;
         background-color: transparent;
         border: solid 3px transparent;
         border-radius: 50%;
@@ -72,7 +72,7 @@
         left: -12px;
         min-height: 38px;
         font-family: $segoe-ui-font;
-        font-size: rem(15px);
+        font-size: 15px;
         font-weight: normal;
         white-space: nowrap;
     }

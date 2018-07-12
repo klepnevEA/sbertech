@@ -1,7 +1,7 @@
 .dropdown {
     display: flex;
-    height: rem(40px);
-    max-width: rem(580px);
+    height: 40px;
+    max-width: 580px;
 
     &__text {
         flex: 1 1 auto;
@@ -20,12 +20,12 @@
         align-items: center;
         flex: 0 0 auto;
         align-self: stretch;
-        width: rem(53px);
+        width: 53px;
     }
 
     &__icon {
-        width: rem(13px);
-        height: rem(6.5px);
+        width: 13px;
+        height: 6.5px;
     }
 
 }

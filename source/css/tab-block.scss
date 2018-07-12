@@ -1,15 +1,15 @@
 .tab-block {
     display: flex;
-    margin: 0 rem(-15px);
-    margin-bottom: rem(52px);
+    margin: 0 -15px;
+    margin-bottom: 52px;
 
     &__btn {
         flex: 1;
-        margin: 0 rem(15px);
-        border-radius: rem(3px);
+        margin: 0 15px;
+        border-radius: 3px;
         background-color: $gray-bg;
         border: solid 1px $gray-light;
-        padding: rem(12px);
+        padding: 12px;
         color: $black;
         text-align: center;
         text-transform: uppercase;
@@ -26,7 +26,7 @@
         span {
             opacity: 0.5;
             font-family: $segoe-ui-font;
-            font-size: rem(20px);
+            font-size: 20px;
             font-weight: bold;
         }
 
@@ -45,8 +45,6 @@
                 border: $green-dark;
                 box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.11);
             }
-
-            
 
             span {
                 opacity: 1;

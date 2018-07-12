@@ -2,11 +2,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    border-radius: rem(3px);
+    border-radius: 3px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border: solid 1px $gray-light;
-    padding: rem(10px);
+    padding: 10px;
 
     &__body  {
         flex: 1px;
@@ -22,8 +22,8 @@
 
     &__header-img {
         flex: 1 0 auto;
-        width: rem(100px);
-        height: rem(100px);
+        width: 100px;
+        height: 100px;
         overflow: hidden;
         
         img {
@@ -33,7 +33,7 @@
     }
 
     &__header-text {
-        padding-left: rem(15px);
+        padding-left: 15px;
         max-height: 115px;
         display: flex;
         flex-direction: column;
@@ -52,14 +52,14 @@
     &__specs {
         border-radius: 3px;
         background-color: $gray-bg;
-        padding: rem(15px);
-        margin-bottom: rem(15px);
+        padding: 15px;
+        margin-bottom: 15px;
     }
 
     &__specs-row {
         display: flex;
-        margin: 0 rem(-5px);
-        margin-bottom: rem(15px);
+        margin: 0 -5px;
+        margin-bottom: 15px;
 
         &:last-child {
             margin-bottom: 0;
@@ -68,7 +68,7 @@
 
     &__specs-col {
         flex: 1;
-        margin: 0 rem(5px);
+        margin: 0 5px;
     }
 
     &__specs-title {
@@ -79,33 +79,33 @@
 
     &__specs-text {
         font-family: $segoe-ui-font;
-        font-size: rem(13px);
+        font-size: 13px;
         font-weight: normal;
     }
 
     &__price-wrap {
         display: flex;
         justify-content: space-between;
-        margin-bottom: rem(16px);
+        margin-bottom: 16px;
     }
 
     &__btn {
-        font-size: rem(16px);
+        font-size: 16px;
         font-weight: 600;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: rem(11px);
+        padding: 11px;
 
         .btn__icon {
-            width: rem(18px);
-            height: rem(18px);
+            width: 18px;
+            height: 18px;
         }
     }
 
     &__delimiter {
         border-bottom: solid 1px $gray-light;
-        margin: rem(12px) 0;
+        margin: 12px 0;
     }
 
     &__edit-wrap {
@@ -118,7 +118,7 @@
         bottom: 0;
         background-color: #fff;
         opacity: 0.97;
-        padding: rem(10px);
+        padding: 10px;
     }
 
 }

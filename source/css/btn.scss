@@ -1,12 +1,12 @@
 .btn {
     display: flex;
     align-items: center;
-    border-radius: rem(3px);
+    border-radius: 3px;
     background-color: $gray-bg;
     border: solid 1px $gray-light;
-    padding: rem(10px) rem(18px);
+    padding: 10px 18px;
     font-family: $segoe-ui-font;
-    font-size: rem(14px);
+    font-size: 14px;
     font-weight: normal;
     line-height: 1;
     color: $black;
@@ -22,13 +22,13 @@
     }
 
     &__icon {
-        width: rem(14px);
-        height: rem(14px);
-        margin-right: rem(10px);
+        width: 14px;
+        height: 14px;
+        margin-right: 10px;
 
         &_right {
             margin-right: 0;
-            margin-left: rem(10px);
+            margin-left: 10px;
             order: 2; 
         }
     }
@@ -65,7 +65,7 @@
     }
     
     &_only-icon {
-        padding: rem(7px);
+        padding: 7px;
         .btn__icon {
             margin-right: 0;
         }
