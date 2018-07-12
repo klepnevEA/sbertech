@@ -7,9 +7,10 @@
 
     &__elem {
         display: flex;
+        flex: 1;
         align-items: stretch;
         position: relative;
-        width: rem(360px);
+        min-width: rem(360px);
         min-height: rem(434px);
         margin: 0 rem(15px) rem(30px) rem(15px);
         
