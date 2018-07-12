@@ -3,7 +3,6 @@
     width: rem(360px);
     height: rem(39px);
     background-color: #fff;
-    overflow: hidden;
 
     @include screen-size-desktop() {
         width: rem(254px);
