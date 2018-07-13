@@ -40,6 +40,10 @@
             background-color: $gray-bg;
             padding-bottom: 15px;
         }
+
+        &_padding-right {
+            padding-right: 100px;
+        }
     }
 
     &__title {
@@ -48,6 +52,7 @@
         font-family: $segoe-ui-font;
         font-size: 20px;
         font-weight: 600;
+        padding-right: 48px;
 
         &_margin-bottom {
             margin-bottom: 44px;
@@ -145,6 +150,17 @@
             font-weight: 600;
             text-align: right;
             min-width: 130px;
+        }
+    }
+
+    &__close {
+        position: absolute;
+        top: 3px;
+        right: 7px;
+
+        .icon {
+            width: 10px;
+            height: 10px;
         }
     }
 }

@@ -44,6 +44,11 @@
             overflow: hidden;
             width: 100%;
         }
+
+        
+        &_disabled {
+             background-color: $gray-bg;
+        }
     }
 
     &__icon {
@@ -65,8 +70,16 @@
 
     &_width-100 {
         width: 100%;
+        flex: 1;
     }
-    
+
+    &_paddint-right {
+        padding-right: 30px;
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
 
     .jq-selectbox__select {
         width: 100%;

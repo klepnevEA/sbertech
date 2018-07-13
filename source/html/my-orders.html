@@ -72,26 +72,43 @@
 											<div class="dropdown-block">
 
 												<div class="dropdown-block__header">
-													<div class="dropdown-block__row">
-														<h2 class="dropdown-block__title">Заказ 1</h2>
-														<div class="input-signature">
-															<span class="input-signature__text">Администратор ресурсов:</span>
-															<div class="input input_overflow">
-																<input type="text" class="input__elem" disabled value="Иванов Иван Иванович, Андреев">
-															</div>
-														</div>
-														<div class="input-signature">
-															<span class="input-signature__text">Пользователь ресурсов:</span>
-															<div class="input input_overflow">
-																<input type="text" class="input__elem" disabled value="Иванов Иван Иванович, Андреев Игорь Алексеевич, Петров Ник">
-															</div>
-														</div>
-														<a href="#" class="btn btn_color-red btn_transparent btn_padding-0">
-															<svg class="btn__icon">
+													<a href="#" class="dropdown-block__close">
+														<div class="icon">
+															<svg class="icon__elem icon__elem_red">
 																<use xlink:href="img/sprite.svg#close"></use>
 															</svg>
-															Отменить заказ
-														</a>
+														</div>
+													</a>
+													<div class="dropdown-block__row dropdown-block__row_padding-right">
+														<h2 class="dropdown-block__title">Заказ 1</h2>
+														<div class="select-block select-block_width-100 select-block_paddint-right">
+															<div class="select-block__text">Автоматизированная система:</div>
+															<div class="select-block__wrap select-block__wrap_disabled">
+																<svg class="select-block__icon">
+																	<use xlink:href="img/sprite.svg#down"></use>
+																</svg>
+																<select>
+																	<option value="0">Иванов Иван Иванович, Андре 1</option>
+																	<option value="1">Иванов Иван Иванович, Андре 2</option>
+																	<option value="2">Иванов Иван Иванович, Андре 3</option>
+																	<option value="3">Иванов Иван Иванович, Андре 3</option>
+																</select>
+															</div>
+														</div>
+														<div class="select-block select-block_width-100 select-block_paddint-right">
+															<div class="select-block__text">Стенд:</div>
+															<div class="select-block__wrap select-block__wrap_disabled">
+																<svg class="select-block__icon">
+																	<use xlink:href="img/sprite.svg#down"></use>
+																</svg>
+																<select>
+																	<option value="0">Иванов Иван Иванович, Андре 1</option>
+																	<option value="1">Иванов Иван Иванович, Андре 2</option>
+																	<option value="2">Иванов Иван Иванович, Андре 3</option>
+																	<option value="3">Иванов Иван Иванович, Андре 4</option>
+																</select>
+															</div>
+														</div>
 													</div>
 													<div class="dropdown-block__row dropdown-block__row_gray">
 														<div class="progress-bar">
@@ -180,7 +197,7 @@
 																		</div>
 																	</td>
 																	<td class="table__cell">Оперативная память:</td>
-																	<td class="table__cell" style="width: 15%">
+																	<td class="table__cell" style="width: 10%">
 																		<div class="input table__input">
 																			<input type="text" class="input__elem" disabled value="4">
 																		</div>
@@ -221,10 +238,9 @@
 																			<input type="text" class="input__elem" disabled value="PostgreSQL 10">
 																		</div>
 																	</td>
-																	<td class="table__cell">Стоимость:</td>
-																	<td class="table__cell">
-																		<div class="table__total-cost">
-																			83 451 &#8381;
+																	<td class="table__cell" colspan="2">
+																		<div class="total-cost">Cтоимость:
+																			<div class="total-cost__price">87 757 563 451 ₽</div>
 																		</div>
 																	</td>
 																</tr>
@@ -257,156 +273,6 @@
 														</div>
 													</div>
 												</div>
-
-												<!-- <div class="order__row">
-													<h2 class="order__title">Заказ 1</h2>
-													<a href="#" class="btn btn_color-red btn_transparent btn_padding-0">
-														<svg class="btn__icon">
-															<use xlink:href="img/sprite.svg#close"></use>
-														</svg>
-														Отменить заказ
-													</a>
-												</div>
-												<div class="order__row order__row_gray">
-													<div class="order__col">
-														<div class="text text_fsz-15">
-															Черновик
-															<br> 21.05.2018 17:21
-														</div>
-													</div>
-													<div class="order__col">
-														<div class="text text_fsz-15">
-															Создан
-															<br> 22.05.2018 15:34
-														</div>
-													</div>
-													<div class="order__col">
-														<div class="text text_fsz-15">
-															На согласовании
-														</div>
-													</div>
-													<div class="order__col">
-														<div class="text text_fsz-15">
-															На исполнении
-														</div>
-													</div>
-													<div class="order__col">
-														<div class="text text_fsz-15 text_right">
-															Исполнен
-														</div>
-													</div>
-												</div>
-												<div class="order__row order__row_gray">
-													<div class="progress-bar">
-														<div class="progress-bar__band">
-															<div class="progress-bar__progress" style="width:50%"></div>
-														</div>
-
-													</div>
-												</div>
-												<div class="order__row order__row_mb-10">
-													<div class="btn-group btn-group_width-100">
-														<a href="#" class="btn btn_only-icon order__btn-only-icon">
-															<svg class="btn__icon">
-																<use xlink:href="img/sprite.svg#arrow-left"></use>
-															</svg>
-														</a>
-														<div class="btn-group__scroll">
-															<a href="#" class="btn btn_green btn-group__btn order__btn ">Ресурс 1</a>
-															<a href="#" class="btn btn-group__btn order__btn">Ресурс 2</a>
-															<a href="#" class="btn btn-group__btn order__btn">Ресурс 3</a>
-															<a href="#" class="btn btn__dashed btn-group__btn order__btn">
-																<svg class="btn__icon">
-																	<use xlink:href="img/sprite.svg#plus"></use>
-																</svg>
-																Добавить новый ресурс
-															</a>
-														</div>
-														<a href="#" class="btn btn_only-icon order__btn-only-icon">
-															<svg class="btn__icon">
-																<use xlink:href="img/sprite.svg#arrow"></use>
-															</svg>
-														</a>
-													</div>
-												</div>
-												<div class="order__row">
-													<table class="order-table">
-														<tr class="order-table__row">
-															<td class="order-table__cell" style="width:15%">Автоматизированная система:</td>
-															<td class="order-table__cell" style="width:35%">
-																<div class="input order-table__input">
-																	<input type="text" class="input__elem" placeholder="(CI00002912) Новая Афина - Расчеты в рублях ПСИ">
-																</div>
-
-															</td>
-															<td class="order-table__cell" style="width:15%">Оперативная память (Гб):</td>
-															<td class="order-table__cell" style="width:35%">
-																<div class="input-range-wrap order-table__input-range-wrap">
-																	<div class="input-range">
-																		<div class="input-range__thumb" style="left: 20%">
-																			<div class="input-range__thumb-text">4 Гб</div>
-																		</div>
-																	</div>
-																</div>
-															</td>
-														</tr>
-														<tr class="order-table__row">
-															<td class="order-table__cell">Тип стенда:</td>
-															<td class="order-table__cell">
-																<div class="input order-table__input">
-																	<input type="text" class="input__elem" placeholder="(CI00002912) Новая Афина - Расчеты в рублях ПСИ">
-																</div>
-
-															</td>
-															<td class="order-table__cell">Количество ядер:</td>
-															<td class="order-table__cell">
-																<div class="input-range-wrap order-table__input-range-wrap">
-																	<div class="input-range">
-																		<div class="input-range__thumb" style="left: 60%">
-																			<div class="input-range__thumb-text">4 ядра</div>
-																		</div>
-																	</div>
-																</div>
-															</td>
-														</tr>
-														<tr class="order-table__row">
-															<td class="order-table__cell">Операционная система:</td>
-															<td class="order-table__cell">
-																<div class="input order-table__input">
-																	<input type="text" class="input__elem" placeholder="(CI00002912) Новая Афина - Расчеты в рублях ПСИ">
-																</div>
-
-															</td>
-															<td class="order-table__cell">Размер диска (Гб)</td>
-															<td class="order-table__cell">
-																<div class="input-range-wrap order-table__input-range-wrap">
-																	<div class="input-range">
-																		<div class="input-range__thumb" style="left: 50%">
-																			<div class="input-range__thumb-text">150 Гб</div>
-																		</div>
-																	</div>
-																</div>
-															</td>
-														</tr>
-														<tr class="order-table__row">
-															<td class="order-table__cell">Программное обеспечение:</td>
-															<td class="order-table__cell">
-																<div class="input order-table__input">
-																	<input type="text" class="input__elem" placeholder="(CI00002912) Новая Афина - Расчеты в рублях ПСИ">
-																</div>
-
-															</td>
-															<td class="order-table__cell">Стоимость:</td>
-															<td class="order-table__cell">
-																<div class="price price_fsz-20">83 451 &#8381;</div>
-															</td>
-														</tr>
-													</table>
-												</div>
-												<div class="order__row order__row_gray">
-													<div class="order__total-cost">Итоговая стоимость: <div class="price price_fsz-20">1 083 451 &#8381;</div></div>
-													
-												</div> -->
 											</div>
 										</td>
 									</tr>
