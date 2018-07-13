@@ -12,5 +12,14 @@
         font-weight: 600;
         text-align: right;
         min-width: 130px;
+        padding-left: 10px;
+    }
+
+    &_basket {
+        margin-right: auto;
+        margin-left: 0; 
+        background-color: $gray-bg;
+        border-radius: 3px;
+        padding: 12px 15px;
     }
 }

@@ -13,7 +13,21 @@
 			<div class="page">
 				<main class="main">
 					@@include('./file-include/block-header-basket.html') @@include('./file-include/filters-panel-basket.html')
+					<div class="page-section page-section_flex">
+							<div class="total-cost total-cost_basket">
+									Итоговая стоимость: 
+									<div class="total-cost__price">
+										1 083 451 &#8381;
+									</div>
+							</div>
+						<div class="btn-group btn-group_basket">
+							<a href="#" class="btn">Отменить</a>
+							<a href="#" class="btn btn_green">Сохранить</a>
+							<a href="#" class="btn btn_green">Оформить заказ</a>
+						</div>
+					</div>
 					<div class="page-section">
+
 
 						<div class="card-list">
 							<ul class="card-list__list">
@@ -21,11 +35,11 @@
 								<li class="card-list__elem">
 									<div class="card">
 										<a href="#" class="card__close">
-												<div class="icon">
-														<svg class="icon__elem icon__elem_red">
-															<use xlink:href="img/sprite.svg#close"></use>
-														</svg>
-													</div>
+											<div class="icon">
+												<svg class="icon__elem icon__elem_red">
+													<use xlink:href="img/sprite.svg#close"></use>
+												</svg>
+											</div>
 										</a>
 										<div class="card__body">
 											<div class="card__header">
@@ -146,8 +160,8 @@
 														<svg class="btn__icon">
 															<use xlink:href="img/sprite.svg#plus"></use>
 														</svg>
-														Выбран нетиповой ресурс.<br>
-														Время согласования будет увеличено
+														Выбран нетиповой ресурс.
+														<br> Время согласования будет увеличено
 													</a>
 												</div>
 											</div>
@@ -177,162 +191,162 @@
 								</li>
 								<!-- один блок -->
 								<li class="card-list__elem">
-										<div class="card">
-											<a href="#" class="card__close">
-													<div class="icon">
-															<svg class="icon__elem icon__elem_red">
-																<use xlink:href="img/sprite.svg#close"></use>
-															</svg>
-														</div>
-											</a>
-											<div class="card__body">
-												<div class="card__header">
-													<div class="card__header-img">
-														<img src="./img/Layer-6.jpg" alt="">
-													</div>
-													<div class="card__header-text">
-														<h2 class="title-small card__title-small">
-															Oracle Database Server
-														</h2>
-													</div>
+									<div class="card">
+										<a href="#" class="card__close">
+											<div class="icon">
+												<svg class="icon__elem icon__elem_red">
+													<use xlink:href="img/sprite.svg#close"></use>
+												</svg>
+											</div>
+										</a>
+										<div class="card__body">
+											<div class="card__header">
+												<div class="card__header-img">
+													<img src="./img/Layer-6.jpg" alt="">
 												</div>
-												<div class="card__specs">
-													<div class="card__specs-row">
-														<div class="card__specs-col">
-															<div class="card__specs-title">Операционная система:</div>
-															<div class="select-block select-block_width-100">
-																<div class="select-block__wrap">
-																	<svg class="select-block__icon">
-																		<use xlink:href="img/sprite.svg#down"></use>
-																	</svg>
-																	<select>
-																		<option value="0">(Linux Ubuntu 14.04 LTS</option>
-																		<option value="1">Linux Ubuntu 14.04 LTS 2</option>
-																		<option value="2">Linux Ubuntu 14.04 LTS 3</option>
-																		<option value="3">Linux Ubuntu 14.04 LTS 4</option>
-																	</select>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="card__specs-row">
-														<div class="card__specs-col">
-															<div class="card__specs-title">Программное обеспечение:</div>
-															<div class="select-block select-block_width-100">
-																<div class="select-block__wrap">
-																	<svg class="select-block__icon">
-																		<use xlink:href="img/sprite.svg#down"></use>
-																	</svg>
-																	<select>
-																		<option value="0">PostgreSQL 10</option>
-																		<option value="1">PostgreSQL 10 2</option>
-																		<option value="2">PostgreSQL 10 3</option>
-																		<option value="3">PostgreSQL 10 4</option>
-																	</select>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="card__specs-row">
-														<div class="card__specs-col">
-															<div class="card__specs-title">Сегмент сети:</div>
-															<div class="select-block select-block_width-100">
-																<div class="select-block__wrap">
-																	<svg class="select-block__icon">
-																		<use xlink:href="img/sprite.svg#down"></use>
-																	</svg>
-																	<select>
-																		<option value="0">Альфа</option>
-																		<option value="1">Альфа 2</option>
-																		<option value="2">Альфа 3</option>
-																		<option value="3">Альфа 4</option>
-																	</select>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="card__specs-row">
-														<div class="card__specs-col">
-															<div class="input-range-wrap input-range-wrap_height">
-																<div class="input-range input-range_green">
-																	<div class="input-range__thumb" style="left: 50%">
-																		<div class="input-range__thumb-text input-range__thumb-text_big">
-																			<span class="input-range__thumb-signature">Память ОЗУ</span>
-																			4 Гб
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="card__specs-row">
-														<div class="card__specs-col">
-															<div class="input-range-wrap input-range-wrap_height">
-																<div class="input-range input-range_green">
-																	<div class="input-range__thumb" style="left: 30%">
-																		<div class="input-range__thumb-text input-range__thumb-text_big">
-																			<span class="input-range__thumb-signature">Процессор</span>
-																			4 ядра
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="card__specs-row">
-														<div class="card__specs-col">
-															<div class="input-range-wrap input-range-wrap_height">
-																<div class="input-range input-range_green">
-																	<div class="input-range__thumb" style="left: 30%">
-																		<div class="input-range__thumb-text input-range__thumb-text_big">
-																			<span class="input-range__thumb-signature">Диск</span>
-																			150 Гб
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-	
+												<div class="card__header-text">
+													<h2 class="title-small card__title-small">
+														Oracle Database Server
+													</h2>
 												</div>
 											</div>
-	
-											<div class="card__footer">
+											<div class="card__specs">
 												<div class="card__specs-row">
 													<div class="card__specs-col">
-														<a href="" class="btn btn_ellow btn_hiddeen card__btn">
-															<svg class="btn__icon">
-																<use xlink:href="img/sprite.svg#plus"></use>
-															</svg>
-															Выбран нетиповой ресурс.<br>
-															Время согласования будет увеличено
-														</a>
+														<div class="card__specs-title">Операционная система:</div>
+														<div class="select-block select-block_width-100">
+															<div class="select-block__wrap">
+																<svg class="select-block__icon">
+																	<use xlink:href="img/sprite.svg#down"></use>
+																</svg>
+																<select>
+																	<option value="0">(Linux Ubuntu 14.04 LTS</option>
+																	<option value="1">Linux Ubuntu 14.04 LTS 2</option>
+																	<option value="2">Linux Ubuntu 14.04 LTS 3</option>
+																	<option value="3">Linux Ubuntu 14.04 LTS 4</option>
+																</select>
+															</div>
+														</div>
 													</div>
 												</div>
 												<div class="card__specs-row">
 													<div class="card__specs-col">
-														<div class="card__price-wrap">
-															<div class="price">
-																<span>83 451</span> &#8381;</div>
-															<div class="counter">
-																<a href="#" class="counter__btn">
-																	<svg class="counter__icon">
-																		<use xlink:href="img/sprite.svg#plus"></use>
-																	</svg>
-																</a>
-																<input type="text" class="counter__input" value="1">
-																<a href="#" class="counter__btn">
-																	<svg class="counter__icon">
-																		<use xlink:href="img/sprite.svg#plus"></use>
-																	</svg>
-																</a>
+														<div class="card__specs-title">Программное обеспечение:</div>
+														<div class="select-block select-block_width-100">
+															<div class="select-block__wrap">
+																<svg class="select-block__icon">
+																	<use xlink:href="img/sprite.svg#down"></use>
+																</svg>
+																<select>
+																	<option value="0">PostgreSQL 10</option>
+																	<option value="1">PostgreSQL 10 2</option>
+																	<option value="2">PostgreSQL 10 3</option>
+																	<option value="3">PostgreSQL 10 4</option>
+																</select>
 															</div>
+														</div>
+													</div>
+												</div>
+												<div class="card__specs-row">
+													<div class="card__specs-col">
+														<div class="card__specs-title">Сегмент сети:</div>
+														<div class="select-block select-block_width-100">
+															<div class="select-block__wrap">
+																<svg class="select-block__icon">
+																	<use xlink:href="img/sprite.svg#down"></use>
+																</svg>
+																<select>
+																	<option value="0">Альфа</option>
+																	<option value="1">Альфа 2</option>
+																	<option value="2">Альфа 3</option>
+																	<option value="3">Альфа 4</option>
+																</select>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="card__specs-row">
+													<div class="card__specs-col">
+														<div class="input-range-wrap input-range-wrap_height">
+															<div class="input-range input-range_green">
+																<div class="input-range__thumb" style="left: 50%">
+																	<div class="input-range__thumb-text input-range__thumb-text_big">
+																		<span class="input-range__thumb-signature">Память ОЗУ</span>
+																		4 Гб
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="card__specs-row">
+													<div class="card__specs-col">
+														<div class="input-range-wrap input-range-wrap_height">
+															<div class="input-range input-range_green">
+																<div class="input-range__thumb" style="left: 30%">
+																	<div class="input-range__thumb-text input-range__thumb-text_big">
+																		<span class="input-range__thumb-signature">Процессор</span>
+																		4 ядра
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="card__specs-row">
+													<div class="card__specs-col">
+														<div class="input-range-wrap input-range-wrap_height">
+															<div class="input-range input-range_green">
+																<div class="input-range__thumb" style="left: 30%">
+																	<div class="input-range__thumb-text input-range__thumb-text_big">
+																		<span class="input-range__thumb-signature">Диск</span>
+																		150 Гб
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+											</div>
+										</div>
+
+										<div class="card__footer">
+											<div class="card__specs-row">
+												<div class="card__specs-col">
+													<a href="" class="btn btn_ellow btn_hiddeen card__btn">
+														<svg class="btn__icon">
+															<use xlink:href="img/sprite.svg#plus"></use>
+														</svg>
+														Выбран нетиповой ресурс.
+														<br> Время согласования будет увеличено
+													</a>
+												</div>
+											</div>
+											<div class="card__specs-row">
+												<div class="card__specs-col">
+													<div class="card__price-wrap">
+														<div class="price">
+															<span>83 451</span> &#8381;</div>
+														<div class="counter">
+															<a href="#" class="counter__btn">
+																<svg class="counter__icon">
+																	<use xlink:href="img/sprite.svg#plus"></use>
+																</svg>
+															</a>
+															<input type="text" class="counter__input" value="1">
+															<a href="#" class="counter__btn">
+																<svg class="counter__icon">
+																	<use xlink:href="img/sprite.svg#plus"></use>
+																</svg>
+															</a>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-									</li>
+									</div>
+								</li>
 								<li class="card-list__elem"></li>
 								<li class="card-list__elem"></li>
 								<li class="card-list__elem"></li>
