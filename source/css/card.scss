@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    width: 100%;
     border-radius: 3px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -21,9 +22,10 @@
     }
 
     &__header-img {
-        flex: 1 0 auto;
+        flex: 0 0 auto;
         width: 100px;
         height: 100px;
+        margin-bottom: 15px;
         overflow: hidden;
         
         img {
@@ -73,8 +75,9 @@
 
     &__specs-title {
         font-family: $segoe-ui-font;
-        font-size: rem(13px);
+        font-size: 13px;
         font-weight: 600;
+        margin-bottom: 3px;
     }
 
     &__specs-text {
@@ -119,6 +122,13 @@
         background-color: #fff;
         opacity: 0.97;
         padding: 10px;
+    }
+
+    &__close {
+        position: absolute;
+        top: 7px;
+        right: 7px;
+        z-index: 1000;
     }
 
 }

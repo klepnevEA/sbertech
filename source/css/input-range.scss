@@ -51,14 +51,15 @@
         font-family: $segoe-ui-font;
         font-size: 13px;
         font-weight: normal;
-        top: -30px;
+        bottom: 12px;
         left: 50%;
         transform: translate(-50%, 0);
+        text-align: center;
 
         &_big {
             font-size: 16px;
             font-weight: 600;
-            top: -26px;
+            bottom: 18px;
         }
     }
 
@@ -75,5 +76,16 @@
         align-items: flex-end;
         height: 30px;
         width: 100%;
+
+        &_height {
+            height: 50px;
+        }
+    }
+    
+    &__thumb-signature {
+        display: block;
+        font-family: $segoe-ui-font;
+        font-size: 12px;
+        font-weight: normal;
     }
 }

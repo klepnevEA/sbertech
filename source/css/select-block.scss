@@ -17,13 +17,14 @@
         height: 39px;
         width: 100%;
         flex: 2 1 auto;
+        border-radius: 3px;
+        background-color: #fff;
 
         .jq-selectbox__dropdown li {
             width: 100%;
         }
 
         .jq-selectbox {
-            background-color: #fff;
             border-radius: 3px;
             border: solid 1px $gray-light;
             width: 100%;
@@ -60,6 +61,10 @@
 
     &_flex-small {
         width: 30%;
+    }
+
+    &_width-100 {
+        width: 100%;
     }
     
 

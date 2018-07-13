@@ -25,6 +25,7 @@
         width: 14px;
         height: 14px;
         margin-right: 10px;
+        flex: 0 0 auto;
 
         &_right {
             margin-right: 0;
@@ -130,6 +131,12 @@
 
     &_padding-0 {
         padding: 0;
+    }
+
+    &_hiddeen {
+        opacity: 0;
+        pointer-events: none;
+        cursor: default;
     }
 
     &__text-adaptive {
